@@ -1,0 +1,50 @@
+@font-face {
+  font-family: drWhoFont;
+  src: url(Doctor-Who.ttf);
+}
+body {
+  background-image: url(../images/tardis.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: drWhoFont;
+  font-size: 30px;
+  color: white;
+}
+.align {
+  margin-top: 5%;
+}
+
+.stage {
+  background-color: #003d67;
+  opacity: .75;
+  padding: 25px;
+  height: 550px;
+  border-radius: 25px; 
+  font-size: 26px;
+}
+
+#startGame {
+  margin-top:75px;
+  background-color: red;
+  border: #003d67;
+}
+
+#restart {
+  margin-top: 10px;
+  background-color: red;
+  border: #003d67;
+}
+
+#gif {
+  margin-top: 15px;
+}
+
+#question {
+  margin-top: 5px;
+}
+
+#startMessage {
+  margin-top: 75px;
+}
